@@ -1,0 +1,169 @@
+[
+   {
+      "Token": "",
+      "Data": {
+         "Company Type": [
+            {
+               "name": "Public Limited CO",
+               "value": 95
+            },
+            {
+               "name": "Private",
+               "value": 96
+            },
+            {
+               "name": "Partnership Firm",
+               "value": 97
+            },
+            {
+               "name": "PSU",
+               "value": 99
+            },
+            {
+               "name": "State Government",
+               "value": 100
+            },
+            {
+               "name": "Central Government",
+               "value": 101
+            },
+            {
+               "name": "MNC",
+               "value": 102
+            },
+            {
+               "name": "LLP",
+               "value": 103
+            },
+            {
+               "name": "Retailer",
+               "value": 104
+            },
+            {
+               "name": "Trust/Society",
+               "value": 105
+            },
+            {
+               "name": "Others",
+               "value": 106
+            }
+         ],
+         "Document tags": [
+            {
+               "name": "Aadhaar Front",
+               "value": 118
+            },
+            {
+               "name": "PAN",
+               "value": 119
+            },
+            {
+               "name": "6 Months Bank Statement",
+               "value": 120
+            },
+            {
+               "name": "Upload Loan Agreement",
+               "value": 121
+            },
+            {
+               "name": "Aadhaar Back",
+               "value": 122
+            }
+         ],
+         "Employment Type": [
+            {
+               "name": "Permanent",
+               "value": 108
+            },
+            {
+               "name": "Contractual",
+               "value": 109
+            }
+         ],
+         "Mode Of Salary": [
+            {
+               "name": "Cheque",
+               "value": 159
+            },
+            {
+               "name": "IMPS",
+               "value": 160
+            },
+            {
+               "name": "NEFT",
+               "value": 161
+            },
+            {
+               "name": "Cash",
+               "value": 162
+            },
+            {
+               "name": "CMS",
+               "value": 163
+            }
+         ],
+         "Relationship Type": [
+            {
+               "name": "Brother",
+               "value": 110
+            },
+            {
+               "name": "Sister",
+               "value": 111
+            },
+            {
+               "name": "Mother",
+               "value": 112
+            },
+            {
+               "name": "Father",
+               "value": 113
+            },
+            {
+               "name": "Spouse",
+               "value": 114
+            },
+            {
+               "name": "Son",
+               "value": 115
+            },
+            {
+               "name": "Daughter",
+               "value": 116
+            },
+            {
+               "name": "Others",
+               "value": 117
+            },
+            {
+               "name": "Friend",
+               "value": 393
+            },
+            {
+               "name": "Partner",
+               "value": 394
+            },
+            {
+               "name": "Colleague",
+               "value": 395
+            },
+            {
+               "name": "Boss",
+               "value": 396
+            },
+            {
+               "name": "Manager",
+               "value": 397
+            },
+            {
+               "name": "Client",
+               "value": 398
+            },
+            {
+               "name": "Suppiler",
+               "value": 399
+            }
+         ]
+      }
+   }
+]

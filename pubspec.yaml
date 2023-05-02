@@ -1,0 +1,260 @@
+name: dhanvarsha
+description: A new Flutter application.
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+version: 1.6.0+7
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: 1.0.2
+  percent_indicator: 2.1.7+2
+  image_picker: 0.8.3+2
+  otp_text_field: 1.1.1
+  pin_input_text_field: 4.1.0
+  super_tooltip: 1.0.1
+  intl: 0.17.0
+  file_picker: 4.0.0
+  pointycastle: 3.3.2
+  dio: 4.0.0
+  flutter_switch: 0.3.2
+  shared_preferences: 2.0.6
+  otp_autofill: 1.1.0
+  webview_flutter: 0.3.20+2
+  encrypted_shared_preferences: 2.0.0
+  uuid: 3.0.5
+  flutter_secure_storage: 4.2.1
+  package_info_plus: 1.0.6
+  url_launcher: 6.0.6
+  flutter_cached_pdfview: 0.4.1
+  encrypt: 5.0.1
+  fdottedline: 1.0.1
+  camera: 0.9.4+4
+  image: 3.1.0
+  image_cropper: 1.4.1
+  youtube_player_flutter: 8.0.0
+  fluttertoast: 8.0.8
+  share: 2.0.4
+  flutter_typeahead: 3.2.4
+  mailto: 2.0.0
+  google_maps_flutter: 2.0.9
+  maps_launcher: 2.0.1
+  geolocator: 8.0.4
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+  assets:
+     - assets/images/4.png
+     - assets/images/aadhar-card.png
+     - assets/images/banner.png
+     - assets/images/bck.png
+     - assets/images/burger.png
+     - assets/images/cal.png
+     - assets/images/cam.png
+     - assets/images/camera1.png
+     - assets/images/camerabutton.png
+     - assets/images/card.png
+     - assets/images/cross-white.png
+     - assets/images/dhan.png
+     - assets/images/drop.png
+     - assets/images/edit.png
+     - assets/images/flag.png
+     - assets/images/gallery_icon.png
+     - assets/images/gallerybutton.png
+     - assets/images/green-tick.png
+     - assets/images/i.png
+     - assets/images/left.png
+     - assets/images/msg.png
+     - assets/images/pan.png
+     - assets/images/pin.png
+     - assets/images/plus.png
+     - assets/images/question.png
+     - assets/images/right.png
+     - assets/images/ruppee.png
+     - assets/images/share.png
+     - assets/images/tick.png
+     - assets/images/tickmrk.png
+     - assets/images/up.png
+     - assets/images/white-quest.png
+     - assets/images/whitebck.png
+     - assets/images/adhaar.png
+     - assets/images/pic.png
+     - assets/images/card1.png
+     - assets/images/card2.png
+     - assets/images/card3.png
+     - assets/images/nadhar.png
+     - assets/images/11add.png
+     - assets/images/poa.png
+     - assets/images/9cal.png
+     - assets/images/profilepic.png
+     - assets/images/npan.png
+     - assets/images/cardpayment.png
+     - assets/images/6drop.png
+     - assets/images/23bg.png
+     - assets/images/25upgreen.png
+     - assets/images/26downred.png
+     - assets/images/15up.png
+     - assets/images/15down.png
+     - assets/images/16bg.png
+     - assets/images/35-share.png
+     - assets/images/36-refresh.png
+     - assets/images/37-notepad.png
+     - assets/images/38-quest.png
+     - assets/images/39-contact.png
+     - assets/images/40-logout.png
+     - assets/images/13bg.png
+     - assets/images/29filter.png
+     - assets/images/30srch.png
+     - assets/images/22accepted.png
+     - assets/images/7ruppee.png
+     - assets/images/uploadnew.png
+     - assets/images/userphoto.png
+     - assets/images/otp.png
+     - assets/images/18.png
+     - assets/images/plpic.png
+     - assets/images/glpic.png
+     - assets/images/bgnew.png
+     - assets/images/62.png
+     - assets/images/63.png
+     - assets/images/93.png
+     - assets/images/135.png
+     - assets/images/81.png
+     - assets/images/1dhanlogo.png
+     - assets/images/1.png
+     - assets/images/2.png
+     - assets/images/0.png
+     - assets/images/136.png
+     - assets/images/2icon.png
+     - assets/images/boyexc.png
+     - assets/images/boycross.png
+     - assets/images/activeloan.png
+     - assets/images/102.png
+     - assets/images/offeracceptednew.png
+     - assets/images/141.png
+     - assets/images/edit.png
+     - assets/images/67.png
+     - assets/images/64.png
+     - assets/images/garbageicon.png
+     - assets/images/dhansetu.png
+     - assets/images/AppAccepted.png
+     - assets/images/Address.png
+     - assets/images/bankstatment.png
+     - assets/images/salarynew.png
+     - assets/images/IDCard.png
+     - assets/images/rupeenew.png
+     - assets/images/rupeeblack.png
+     - assets/privacypolicy.html
+     - assets/termsconditions.html
+     - assets/dhansetunewcard.png
+     - assets/personalloan.png
+     - assets/Call.png
+     - assets/BusinessLoan.png
+     - assets/GoldLoan.png
+     - assets/emptyTick.png
+     - assets/images/cheque.png
+     - assets/images/6drop.png
+     - assets/images/dhanlogo4.png
+     - assets/images/rena.png
+     - assets/images/ccal.png
+     - assets/images/uplo.png
+     - assets/images/chq.png
+     - assets/images/1dhanlogo.png
+     - assets/images/sp1.png
+     - assets/images/sp2.png
+     - assets/images/log.png
+     - assets/images/otp.png
+     - assets/images/party.png
+     - assets/images/bill1.png
+     - assets/images/person.png
+     - assets/images/bill2.png
+     - assets/images/poa.png
+     - assets/images/ra.png
+     - assets/images/ar.png
+     - assets/images/npan.png
+     - assets/images/tick2.png
+     - assets/images/grpfinal.png
+     - assets/images/regbck.png
+     - assets/images/inprog.png
+     - assets/images/buscard.png
+     - assets/images/busscardname.png
+     - assets/images/Invite.png
+     - assets/images/train.png
+     - assets/images/appsub.png
+     - assets/images/regcom.png
+     - assets/images/reji.png
+     - assets/images/Rejected.png
+     - assets/images/Group.png
+     - assets/images/gl.png
+     - assets/images/vb.png
+     - assets/images/cl.png
+     - assets/images/lc.png
+     - assets/images/yg.png
+     - assets/images/kyc.png
+     - assets/images/sh.png
+     - assets/images/l.png
+     - assets/images/s.png
+     - assets/images/ap.png
+     - assets/images/glappreceived.gif
+     - assets/images/shakehand.png
+  fonts:
+     - family: Poppins
+       fonts:
+          - asset: assets/fonts/Poppins-Medium.ttf
+            weight: 200
+          - asset: assets/fonts/Poppins-Regular.ttf
+            weight: 100
+     - family: Gotham
+       fonts:
+          - asset: assets/fonts/Gotham-Regular.otf
+     - family: GothamMedium
+       fonts:
+          - asset: assets/fonts/Gotham-Medium.ttf
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware.
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+
+
+
+
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
